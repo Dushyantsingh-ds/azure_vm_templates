@@ -7,5 +7,5 @@ This template allows you to deploy a simple Windows VM using a few different opt
 `New-AzResourceGroup -Name <resource-group-name> -Location <resource-group-location> #use this command when you need to create a new resource group for your deployment
 New-AzResourceGroupDeployment -ResourceGroupName <resource-group-name> -TemplateUri https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-vm-simple-windows/azuredeploy.json`
 ### Command line
-'az group create --name <resource-group-name> --location <resource-group-location> #use this command when you need to create a new resource group for your deployment
-az group deployment create --resource-group <my-resource-group> --template-uri https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-vm-simple-windows/azuredeploy.json'
+`az group create --name <resource-group-name> --location <resource-group-location> #use this command when you need to create a new resource group for your deployment
+az group deployment create --resource-group <my-resource-group> --template-uri https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-vm-simple-windows/azuredeploy.json`
